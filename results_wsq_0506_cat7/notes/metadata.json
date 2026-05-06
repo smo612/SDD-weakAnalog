@@ -1,0 +1,7 @@
+{
+  "raw_source": "D:\\SDD v6b\\results_probe_wsq_0506_cat7",
+  "local_img": "data/kodak/kodim18.png",
+  "remote_img": "data/cat/cat7_center_square.png",
+  "remote_presentation_fix": "cat7 was center-cropped offline to a square before the standard resize_128 protocol.",
+  "repair_rule": "Use T_START=2 for weak1700 diffusion at -35 dB only; all other cat7 weak points remain baseline."
+}

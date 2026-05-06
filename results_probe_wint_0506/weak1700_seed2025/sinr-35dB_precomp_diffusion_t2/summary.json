@@ -1,0 +1,18 @@
+{
+  "rsi_scale": 9876,
+  "run_tag": "precomp_diffusion",
+  "local_img": "data/kodak/kodim01.png",
+  "remote_img": "data/kodak/kodim24.png",
+  "time_sec": 31.001951932907104,
+  "sinr_pre": -35.00002524021058,
+  "sinr_after_analog": 18.414766690741093,
+  "sinr_after_digital": 19.435195790629788,
+  "psnr": 34.301602388528806,
+  "ms_ssim": 0.971674382686615,
+  "true_ms_ssim": 0.9924359321594238,
+  "true_ms_ssim_db": 21.21244584711218,
+  "ssim_proxy_db": 15.478206165792933,
+  "protocol": "wint_0506_realistic_default",
+  "target_sinr_pre": -35,
+  "derived_rsi_scale": 9876
+}

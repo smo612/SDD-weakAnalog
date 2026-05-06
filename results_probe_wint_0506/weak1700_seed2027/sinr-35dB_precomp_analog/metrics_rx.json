@@ -1,0 +1,1 @@
+{"psnr": 32.91895535068228, "mse": 0.0005106278113089502, "ms_ssim": 0.9619545936584473, "source_image": "data\\kodak\\kodim24.png", "kodak_protocol": "resize_128", "protocol_meta": {"protocol": "resize_128", "source_size_wh": [768, 512], "final_size_hw": [128, 128], "crop_box_ltrb": null}}

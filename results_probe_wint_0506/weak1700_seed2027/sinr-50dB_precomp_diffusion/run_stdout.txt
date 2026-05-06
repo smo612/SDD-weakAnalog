@@ -1,0 +1,79 @@
+
+============================================================
+SDD Final Physics Simulation (RSI=406085.0x)
+  Analog mode: Aux-TX realistic (WL+NL FIR)
+  AUX_DISABLE_IQPA = False (arg)
+  Use diffusion: True
+  Use Kong:      False
+  Use CNN v6a:   False
+  Use CNN v6b:   False
+  Use CNN next:  False
+  Use CNN add:   False
+  Digital internal normalize: False
+  Kodak protocol: resize_128
+============================================================
+
+[RUN] semantic TX for local image... Exception in thread Thread-1 (_readerthread):
+Traceback (most recent call last):
+  File "C:\Users\jing5\anaconda3\envs\se\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "C:\Users\jing5\anaconda3\envs\se\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\jing5\anaconda3\envs\se\lib\subprocess.py", line 1515, in _readerthread
+    buffer.append(fh.read())
+UnicodeDecodeError: 'cp950' codec can't decode byte 0xe5 in position 287: illegal multibyte sequence
+OK
+[RUN] semantic TX for remote image... Exception in thread Thread-3 (_readerthread):
+Traceback (most recent call last):
+  File "C:\Users\jing5\anaconda3\envs\se\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "C:\Users\jing5\anaconda3\envs\se\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\jing5\anaconda3\envs\se\lib\subprocess.py", line 1515, in _readerthread
+    buffer.append(fh.read())
+UnicodeDecodeError: 'cp950' codec can't decode byte 0xe5 in position 287: illegal multibyte sequence
+OK
+[RUN] run Aux-TX realistic analog SIC... OK
+[RUN] diffusion AI-SIC... Exception in thread Thread-8 (_readerthread):
+Traceback (most recent call last):
+  File "C:\Users\jing5\anaconda3\envs\se\lib\threading.py", line 1016, in _bootstrap_inner
+Exception in thread Thread-7 (_readerthread):
+Traceback (most recent call last):
+  File "C:\Users\jing5\anaconda3\envs\se\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "C:\Users\jing5\anaconda3\envs\se\lib\threading.py", line 953, in run
+    self.run()
+  File "C:\Users\jing5\anaconda3\envs\se\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\jing5\anaconda3\envs\se\lib\subprocess.py", line 1515, in _readerthread
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\jing5\anaconda3\envs\se\lib\subprocess.py", line 1515, in _readerthread
+    buffer.append(fh.read())
+UnicodeDecodeError: 'cp950' codec can't decode byte 0xe2 in position 151: illegal multibyte sequence
+    buffer.append(fh.read())
+UnicodeDecodeError: 'cp950' codec can't decode byte 0xf0 in position 0: illegal multibyte sequence
+OK
+[RUN] semantic RX... OK
+
+============================================================
+Final Report
+============================================================
+Summary:
+  RSI scale: 406085.0x
+  Analog mode: Aux-TX realistic (WL+NL FIR)
+  AUX disable IQ/PA: False
+  Digital backend: Diffusion
+
+Physics-side SINR:
+  1. Before analog SIC: -50.00 dB
+  2. After analog SIC:    0.19 dB  (Gain: +50.19 dB)
+  3. After digital SIC: N/A  [Diffusion]
+  Total physics gain:   N/A
+
+Symbol fidelity:
+  Noisy symbol SINR:      0.21 dB
+  Clean symbol SINR:      2.27 dB
+  MSE gain:               2.06 dB
+  |corr(clean,target)|: 0.7852
+
+RX image PSNR: 22.03 dB

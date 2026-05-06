@@ -1,0 +1,21 @@
+{
+  "backend": "Diffusion",
+  "metric_mode": "symbol_fidelity",
+  "SINR_analog": 14.121057372523826,
+  "reference_power": 1.000000000001,
+  "mse_clean": 0.024163328111171722,
+  "nmse_clean_db": -16.16843248809733,
+  "symbol_sinr_clean_db": 16.16843248809733,
+  "corr_clean_abs": 0.9880824402968945,
+  "corr_clean_angle_rad": 0.0034413637690631975,
+  "mse_noisy": 0.035554058849811554,
+  "nmse_noisy_db": -14.491108130535222,
+  "symbol_sinr_noisy_db": 14.491108130535222,
+  "corr_noisy_abs": 0.9827033591127946,
+  "corr_noisy_angle_rad": 0.004077982423868606,
+  "mse_gain_db": 1.677324357562111,
+  "symbol_gain_db": 1.6773243575621084,
+  "relative_mse_improvement_pct": 32.037778826987086,
+  "SINR_after_digital": 16.16843248809733,
+  "SINR_after_digital_physics": null
+}

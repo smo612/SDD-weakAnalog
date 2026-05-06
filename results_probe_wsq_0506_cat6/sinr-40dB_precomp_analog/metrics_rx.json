@@ -1,0 +1,1 @@
+{"psnr": 35.23006825151017, "mse": 0.0002999115386046469, "ms_ssim": 0.9604001045227051, "source_image": "data\\cat\\cat6_center_square.png", "kodak_protocol": "resize_128", "protocol_meta": {"protocol": "resize_128", "source_size_wh": [2848, 2848], "final_size_hw": [128, 128], "crop_box_ltrb": null}}

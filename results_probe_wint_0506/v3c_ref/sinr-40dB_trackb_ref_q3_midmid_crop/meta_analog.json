@@ -1,0 +1,32 @@
+{
+  "snr_db": 25.0,
+  "rsi_scale": 31231.0,
+  "SINR_pre": -39.61486386553714,
+  "SINR_analog": 10.23760083790393,
+  "Supp_analog": 49.85246470344107,
+  "noise_var": 0.003162278004596564,
+  "P_main": 1.0000001089177555,
+  "amp_scale": 1.0,
+  "analog_mode": "toy_50dB",
+  "toy_sic_db": 50.0,
+  "analog_sic_info": {
+    "mode": "toy_kmatch",
+    "ASIC_L": 9,
+    "ASIC_P": 7,
+    "ASIC_P_use": 7,
+    "ASIC_NSYM": 2000,
+    "BO_DB": 0.0,
+    "enable_pa_nonlinearity": true,
+    "AUX_DISABLE_IQPA": false,
+    "ASIC_FORCE_LINEAR_WHEN_PA_OFF": true,
+    "k_amp": 0.0031622776601683794,
+    "P_rsi_before": 9151.373562678173,
+    "P_rsi_after": 0.09151373562678176,
+    "analog_supp_db": 50.0,
+    "actual_suppression_db": 50.0,
+    "P_main": 1.0000001089177555,
+    "noise_var": 0.003162278004596564,
+    "SINR_pre_db": -39.61486386553714,
+    "SINR_analog_db": 10.23760083790393
+  }
+}

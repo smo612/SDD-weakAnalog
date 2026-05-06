@@ -1,7 +1,6 @@
 data/
 checkpoints/
 ddpm_models/
-results_*/
 bridge/
 bridge_digital/
 bridge_rx/

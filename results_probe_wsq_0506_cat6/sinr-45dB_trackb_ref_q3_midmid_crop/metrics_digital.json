@@ -1,0 +1,40 @@
+{
+  "backend": "MP",
+  "metric_mode": "symbol_fidelity",
+  "SINR_analog": 6.340309701702643,
+  "reference_power": 1.0000001192102896,
+  "mse_clean": 0.0915653184056282,
+  "nmse_clean_db": -10.38269041824787,
+  "symbol_sinr_clean_db": 10.38269041824787,
+  "corr_clean_abs": 0.9592637235865678,
+  "corr_clean_angle_rad": -0.023516941391487953,
+  "mse_noisy": 0.22909486293792725,
+  "nmse_noisy_db": -6.399847007863294,
+  "symbol_sinr_noisy_db": 6.399847007863295,
+  "corr_noisy_abs": 0.9123441401751812,
+  "corr_noisy_angle_rad": -0.09710819749341318,
+  "mse_gain_db": 3.982843410384577,
+  "symbol_gain_db": 3.982843410384575,
+  "relative_mse_improvement_pct": 60.03170161391268,
+  "SINR_after_digital": 10.38269041824787,
+  "snr_db": 25.0,
+  "Supp_analog": 49.94046335329968,
+  "Digital_gain": 3.8949254277117324,
+  "Digital_gain_physics": 3.8949254277117324,
+  "Digital_supp_si": 3.9828432542459598,
+  "SINR_after_digital_physics": 10.235235129414376,
+  "Total_supp_SI_only": 53.92330660754563,
+  "params": {
+    "L": 3,
+    "lambda": 1.0,
+    "poly_orders": [
+      1
+    ],
+    "fit_target": "si_oracle",
+    "fit_window": "legacy",
+    "fit_prefix_samples": 6655
+  },
+  "pilot_correction": null,
+  "reference_mode": null,
+  "reference_info": null
+}

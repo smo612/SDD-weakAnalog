@@ -1,0 +1,68 @@
+
+============================================================
+SDD Final Physics Simulation (RSI=1429512.0x)
+  Analog mode: TOY 50dB oracle (IBFD-SC 2025 baseline)
+  Use diffusion: False
+  Use Kong:      False
+  Use CNN v6a:   False
+  Use CNN v6b:   False
+  Use CNN next:  False
+  Use CNN add:   False
+  Digital internal normalize: False
+  Kodak protocol: resize_128
+============================================================
+
+[RUN] semantic TX for local image... Exception in thread Thread-1 (_readerthread):
+Traceback (most recent call last):
+  File "C:\Users\jing5\anaconda3\envs\se\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "C:\Users\jing5\anaconda3\envs\se\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\jing5\anaconda3\envs\se\lib\subprocess.py", line 1515, in _readerthread
+    buffer.append(fh.read())
+UnicodeDecodeError: 'cp950' codec can't decode byte 0xe5 in position 287: illegal multibyte sequence
+OK
+[RUN] semantic TX for remote image... Exception in thread Thread-3 (_readerthread):
+Traceback (most recent call last):
+  File "C:\Users\jing5\anaconda3\envs\se\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "C:\Users\jing5\anaconda3\envs\se\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\jing5\anaconda3\envs\se\lib\subprocess.py", line 1515, in _readerthread
+    buffer.append(fh.read())
+UnicodeDecodeError: 'cp950' codec can't decode byte 0xe5 in position 305: illegal multibyte sequence
+OK
+[RUN] run toy analog SIC... OK
+[RUN] digital SIC backend (MP)... Exception in thread Thread-7 (_readerthread):
+Traceback (most recent call last):
+  File "C:\Users\jing5\anaconda3\envs\se\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "C:\Users\jing5\anaconda3\envs\se\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\jing5\anaconda3\envs\se\lib\subprocess.py", line 1515, in _readerthread
+    buffer.append(fh.read())
+UnicodeDecodeError: 'cp950' codec can't decode byte 0xe9 in position 163: illegal multibyte sequence
+OK
+[RUN] semantic RX... OK
+
+============================================================
+Final Report
+============================================================
+Summary:
+  RSI scale: 1429512.0x
+  Analog mode: TOY 50dB oracle (IBFD-SC 2025 baseline)
+  Digital backend: MP
+
+Physics-side SINR:
+  1. Before analog SIC: -53.60 dB
+  2. After analog SIC:   -3.61 dB  (Gain: +49.99 dB)
+  3. After digital SIC:   0.37 dB  [MP]
+  Total physics gain:   53.97 dB
+
+Symbol fidelity:
+  Noisy symbol SINR:     -3.60 dB
+  Clean symbol SINR:      0.38 dB
+  MSE gain:               3.98 dB
+  |corr(clean,target)|: 0.7474
+
+RX image PSNR: 19.45 dB

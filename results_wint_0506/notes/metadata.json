@@ -1,0 +1,18 @@
+{
+  "raw_source": "D:\\SDD v6b\\WORKSTATION_RUNNABLE_MAIN_RESULTS_BUNDLE_2026-05-06\\results_probe_wint_0506",
+  "target_sinr_pre": [
+    -60,
+    -55,
+    -50,
+    -45,
+    -40,
+    -35,
+    -30
+  ],
+  "repair_rule": "Use T_START=2 for weak1700 diffusion at -35 dB only; all other weak points remain baseline.",
+  "weak_seeds": [
+    2025,
+    2026,
+    2027
+  ]
+}

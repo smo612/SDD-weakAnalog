@@ -1,0 +1,61 @@
+
+============================================================
+SDD Final Physics Simulation (RSI=371812.0x)
+  Analog mode: Aux-TX realistic (WL+NL FIR)
+  AUX_DISABLE_IQPA = False (arg)
+  Use diffusion: False
+  Use Kong:      False
+  Use CNN v6a:   False
+  Use CNN v6b:   False
+  Use CNN next:  False
+  Use CNN add:   False
+  Digital internal normalize: False
+  Kodak protocol: resize_128
+============================================================
+
+[RUN] semantic TX for local image... Exception in thread Thread-1 (_readerthread):
+Traceback (most recent call last):
+  File "C:\Users\jing5\anaconda3\envs\se\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "C:\Users\jing5\anaconda3\envs\se\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\jing5\anaconda3\envs\se\lib\subprocess.py", line 1515, in _readerthread
+    buffer.append(fh.read())
+UnicodeDecodeError: 'cp950' codec can't decode byte 0xe5 in position 287: illegal multibyte sequence
+OK
+[RUN] semantic TX for remote image... Exception in thread Thread-3 (_readerthread):
+Traceback (most recent call last):
+  File "C:\Users\jing5\anaconda3\envs\se\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "C:\Users\jing5\anaconda3\envs\se\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\jing5\anaconda3\envs\se\lib\subprocess.py", line 1515, in _readerthread
+    buffer.append(fh.read())
+UnicodeDecodeError: 'cp950' codec can't decode byte 0xe5 in position 287: illegal multibyte sequence
+OK
+[RUN] run Aux-TX realistic analog SIC... OK
+[INFO] Digital SIC skipped (analog-only mode).
+[RUN] semantic RX... OK
+
+============================================================
+Final Report
+============================================================
+Summary:
+  RSI scale: 371812.0x
+  Analog mode: Aux-TX realistic (WL+NL FIR)
+  AUX disable IQ/PA: False
+  Digital backend: None
+
+Physics-side SINR:
+  1. Before analog SIC: -50.00 dB
+  2. After analog SIC:    3.52 dB  (Gain: +53.52 dB)
+  3. After digital SIC:   3.52 dB  [None]
+  Total physics gain:   53.52 dB
+
+Symbol fidelity:
+  Noisy symbol SINR:      3.55 dB
+  Clean symbol SINR:      3.55 dB
+  MSE gain:               0.00 dB
+  |corr(clean,target)|: 0.8308
+
+RX image PSNR: 23.32 dB
