@@ -1,0 +1,11 @@
+data/
+checkpoints/
+ddpm_models/
+results_*/
+bridge/
+bridge_digital/
+bridge_rx/
+bridge_tx/
+bridge_tx_remote/
+__pycache__/
+*.pyc

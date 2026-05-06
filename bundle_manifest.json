@@ -1,0 +1,59 @@
+{
+  "created": "2026-05-06",
+  "bundle_path": "D:\\SDD v6b\\WORKSTATION_RUNNABLE_MAIN_RESULTS_BUNDLE_2026-05-06",
+  "includes_root_files": [
+    ".gitignore",
+    "analog_sic_estimator.py",
+    "analog_sic_estimator_backend.py",
+    "CDiff.py",
+    "config.py",
+    "modules_CDiff.py",
+    "run_analog_semantic.py",
+    "run_analog_semantic_toy.py",
+    "run_diffusion.py",
+    "run_sdd_final.py",
+    "sdd_channel_model_v5.py",
+    "sweep.py"
+  ],
+  "includes_root_dirs": [
+    "checkpoints",
+    "data",
+    "ddpm_models",
+    "layer",
+    "SIC",
+    "src",
+    "utils"
+  ],
+  "includes_script_files": [
+    "scripts/run_tx_kodak_batch.py",
+    "scripts/run_digital_sic.py",
+    "scripts/probe_wint_0506.py",
+    "scripts/build_wint_0506_bundle.py",
+    "scripts/build_wint_0506_audit.py",
+    "scripts/build_wint_fair_0506.py",
+    "scripts/select_cat_locals_0506.py",
+    "scripts/probe_cpack_0506.py",
+    "scripts/probe_wsq_0506_cat6.py",
+    "scripts/build_wsq_0506_cat6_bundle.py",
+    "scripts/probe_wsq_0506_cat2.py",
+    "scripts/build_wsq_0506_cat2_bundle.py",
+    "scripts/probe_wsq_0506_cat7.py",
+    "scripts/build_wsq_0506_cat7_bundle.py"
+  ],
+  "excludes": [
+    "results_*",
+    "bridge*",
+    "__pycache__",
+    "*.pyc"
+  ],
+  "official_external_results": [
+    "results_wint_0506",
+    "results_wsq_0506_cat6",
+    "results_wsq_0506_cat2",
+    "results_wsq_0506_cat7"
+  ],
+  "preferred_verification": [
+    "python scripts/probe_wsq_0506_cat6.py",
+    "python scripts/build_wsq_0506_cat6_bundle.py"
+  ]
+}
